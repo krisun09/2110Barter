@@ -1,16 +1,19 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="css/bootstrap.min.css" rel="stylesheet" >
+    
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>account</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <title>item-list</title>
 </head>
+
 <body>
 <div class="header-bottom sticky-bar">
-    <div class="container">
+    <div class="container-fluid">
         <div class="header-nav">
             <div class="main-menu">
                 <nav>
@@ -60,29 +63,40 @@
         </div>
     </div>
 </div>
-    <div align="center">
-        <h1 cent>Account</h1>    
+    <div class="header-area">
+        <h1 cent>Your account reviews</h1>
     </div>
     <div class="container">
         <div class="row">
-            <div class="col-2" >
-                <div class="card">  
-                    <ul class="list-group list-group-flush" >
-                       <a href="editor_profile.html"> <li class="list-group-item">Edit Profile</li></a>
-                       <a href="#"><li class="list-group-item">History</li></a>
-                        <a href="review.html"><li class="list-group-item">Reviews</li></a>
-                        <a href="#"><li class="list-group-item">Help</li></a>           
+            <div class="col-2">
+                <div class="card">
+                    <ul class="list-group list-group-flush">
+                        <a href="editor_profile.html">
+                            <li class="list-group-item">Edit Profile</li>
+                        </a>
+                        <a href="#">
+                            <li class="list-group-item">History</li>
+                        </a>
+                        <a href="review.html">
+                            <li class="list-group-item">Reviews</li>
+                        </a>
+                        <a href="item_list.html">
+                            <li class="list-group-item">Items</li>
+                        </a>
+                        <a href="#">
+                            <li class="list-group-item">Help</li>
+                        </a>
                     </ul>
                 </div>
             </div>
             <div class="col">
                 <div class="row">
-                    <div class="card" >                        
+                    <div class="card">
                         <div class="card-body" align="center">
-                            <h4 class="card-title">Name</h4>   
-                            <img src="imgs/admin.png" alt="Card image cap" style="width: 10rem;" >
+                            <h4 class="card-title">Name</h4>
+                            <img src="imgs/admin.png" alt="Card image cap" style="width: 10rem;">
                         </div>
-                                        
+
                         <ul class="list-inline " align="center">
                             <li class="list-inline-item">gender</li>
                             <li class="list-inline-item">age</li>
@@ -91,26 +105,47 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="list-group">
-                        <a href="#" class="list-group-item list-group-item-action active">Active item</a>
-                        <a href="#" class="list-group-item list-group-item-action">Item</a>
-                        <a href="#" class="list-group-item list-group-item-action disabled">Disabled item</a>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        <a href="#" class="list-group-item list-group-item-action disabled"></a>
-                    </div>
+                    <div class="card-group">
+                        <div class="card">
+                          <img src="imgs/pc.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                          </div>
+                          <div class="card-footer" align="right">                           
+                            <button type="button" class="btn btn-secondary btn-sm">Accept</button>
+                            <button type="button" class="btn btn-secondary btn-sm">Refuse</button>
+                          </div>
+                        </div>
+                        <div class="card">
+                          <img src="imgs/pc.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                          </div>
+                          <div class="card-footer" align="right">                           
+                            <button type="button" class="btn btn-secondary btn-sm">Accept</button>
+                            <button type="button" class="btn btn-secondary btn-sm">Refuse</button>
+                          </div>
+                        </div>
+                        <div class="card">
+                          <img src="imgs/pc.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. </p>
+                          </div>
+                          <div class="card-footer" align="right">                           
+                            <button type="button" class="btn btn-secondary btn-sm">Accept</button>
+                            <button type="button" class="btn btn-secondary btn-sm">Refuse</button>
+                          </div>
+                        </div>
+                      </div>
                 </div>
             </div>
         </div>
     </div>
-       
-    
+
+
 </body>
+
 </html>

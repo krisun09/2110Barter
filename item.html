@@ -1,53 +1,114 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="css/bootstrap.min.css" rel="stylesheet" >
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>item</title>
 </head>
+
 <body>
+<div class="header-bottom sticky-bar">
+    <div class="container-fluid">
+        <div class="header-nav">
+            <div class="main-menu">
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <div class="dropdown">
+                                <button class="dropbtn">Orders
+                                    <i class="fa fa-caret-down"></i>
+                                </button>
+                                <div class="dropdown-content">
+                                    <a href="uppload_item.html">Upload an item</a>
+                                    <a href="find-an-order.html">Find an order</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="dropdown">
+                                <button class="dropbtn">About Us
+                                    <i class="fa fa-caret-down"></i>
+                                </button>
+                                <div class="dropdown-content">
+                                    <a href="About_us.html">About Us</a>
+                                    <a href="contactUs.html">Contact Us</a>
+                                    <a href="FAQ.html">FAQ</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="dropdown">
+                                <button class="dropbtn">Account
+                                    <i class="fa fa-caret-down"></i>
+                                </button>
+                                <div class="dropdown-content">
+                                    <a href="account.html">Account</a>
+                                    <a href="login.html">Login</a>
+                                    <a href="register.html">Register</a>
+                                    <a href="review.html">Your account reviews</a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</div>
+    <div>
+        <br>
+        <br><br>
+    </div>
     <div align="center">
-        <h1 cent>Barter</h1>    
+        <h1 cent>Barter</h1>
     </div>
     <div class="container">
         <div class="row">
-            <div class="col-4" >
-                <div class="card" >
-                    <img src="imgs/pc.jpg" alt="Card image cap" style="width: 20rem;" >
+            <div class="col-4">
+                <div class="card">
+                    <img src="imgs/pc.jpg" alt="Card image cap" style="width: 20rem;">
                 </div>
             </div>
             <div class="col">
                 <div class="row">
-                    <div class="card" >                        
+                    <div class="card">
                         <div class="card-body" align="center">
-                            <h4 class="card-title">Laptop</h4>                                                     
+                            <h4 class="card-title">Laptop</h4>
+
+                            <ul class="list-group " style="background-color: white;">
+                                <li class="list-inline-item" align="left">Username:</li>
+                                <li class="list-inline-item" align="left">Location:</li>
+                                <li class="list-inline-item" align="left">Detail:
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <br>
+                                </li>
+                            </ul>
                         </div>
-                                        
-                        <ul class="list-group " >
-                            <li class="list-inline-item">Username:</li>
-                            <li class="list-inline-item">Location:</li>
-                            <li class="list-inline-item">Detail:
-                                <br>
-                                <br>
-                                <br>
-                                <br>
-                            </li>
-                        </ul>
                     </div>
-                    
-                </div>            
-                <br>   
-                <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-                    <a href="#" class="btn btn-primary" role="button" data-bs-toggle="button">Add to cart</a>
-                    <a href="applyorder.html" class="btn btn-primary active" role="button" data-bs-toggle="button" aria-pressed="true">Apply order</a>                  
+
                 </div>
-               
-            
+                <br>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                    <a href="#" class="btn btn-second" role="button" data-bs-toggle="button">Add to cart</a>
+                    <a href="applyorder.html" class="btn btn-second" role="button" data-bs-toggle="button"
+                        aria-pressed="true">Apply order</a>
+                </div>
+
+
             </div>
         </div>
     </div>
-       
-    
+
+
 </body>
+
 </html>

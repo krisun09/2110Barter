@@ -206,7 +206,7 @@ li a:hover {
 }
 
 .middle-text-p {
-    margin: 18px;
+    margin: 15px;
 }
 
 .middle-text {
@@ -339,7 +339,13 @@ section h3 {
     margin-bottom: 5px !important;
 }
 
-
+/*account page*/
+.list-group-item.active {
+    z-index: 2;
+    color: #fff;
+    background-color: #796D59;
+    border-color: #796D59;
+}
 
 @media only screen and (min-width: 992px) {
     .sticky-bar .container {

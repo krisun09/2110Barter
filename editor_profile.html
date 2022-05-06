@@ -7,18 +7,69 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/bootstrap-select.min.css">
+    <link rel="stylesheet" href="css/main.css">
     <!-- JavaScript -->
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/countrypicker.min.js"></script>
     <script src="/path/to/bootstrap-select.min.js"></script>
 
-
-
     <title>edit</title>
 </head>
 
 <body>
+<div class="header-bottom sticky-bar">
+    <div class="container-fluid">
+        <div class="header-nav">
+            <div class="main-menu">
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <div class="dropdown">
+                                <button class="dropbtn">Orders
+                                    <i class="fa fa-caret-down"></i>
+                                </button>
+                                <div class="dropdown-content">
+                                    <a href="uppload_item.html">Upload an item</a>
+                                    <a href="find-an-order.html">Find an order</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="dropdown">
+                                <button class="dropbtn">About Us
+                                    <i class="fa fa-caret-down"></i>
+                                </button>
+                                <div class="dropdown-content">
+                                    <a href="About_us.html">About Us</a>
+                                    <a href="contactUs.html">Contact Us</a>
+                                    <a href="FAQ.html">FAQ</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="dropdown">
+                                <button class="dropbtn">Account
+                                    <i class="fa fa-caret-down"></i>
+                                </button>
+                                <div class="dropdown-content">
+                                    <a href="account.html">Account</a>
+                                    <a href="login.html">Login</a>
+                                    <a href="register.html">Register</a>
+                                    <a href="review.html">Your account reviews</a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</div>
+    <br><br><br>
     <div align="center">
         <h1 cent>Edit Profile</h1>
     </div>
@@ -35,6 +86,9 @@
                         </a>
                         <a href="review.html">
                             <li class="list-group-item">Reviews</li>
+                        </a>
+                        <a href="item_list.html">
+                            <li class="list-group-item">Items</li>
                         </a>
                         <a href="#">
                             <li class="list-group-item">Help</li>
@@ -95,7 +149,7 @@
                             <input type="text" class="form-control" id="suburb" placeholder="Please input suburb:">
                         </div>
                         <br>
-                        <div>
+                        <div align="right">
                             <button type="submit" class="btn btn-primary">submit</button>
                         </div>
 
