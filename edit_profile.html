@@ -1,0 +1,111 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-select.min.css">
+    <!-- JavaScript -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/countrypicker.min.js"></script>
+    <script src="/path/to/bootstrap-select.min.js"></script>
+
+
+
+    <title>edit</title>
+</head>
+
+<body>
+    <div align="center">
+        <h1 cent>Edit Profile</h1>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-2">
+                <div class="card">
+                    <ul class="list-group list-group-flush">
+                        <a href="editor_profile.html">
+                            <li class="list-group-item">Edit Profile</li>
+                        </a>
+                        <a href="#">
+                            <li class="list-group-item">History</li>
+                        </a>
+                        <a href="review.html">
+                            <li class="list-group-item">Reviews</li>
+                        </a>
+                        <a href="#">
+                            <li class="list-group-item">Help</li>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+            <div class="col">
+                <div class="row">
+                    <form role="form">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Please input name:">
+                        </div>
+                        <br>
+                        <div>
+                            <label for="Gender">Gender</label>
+                        </div>
+                        <label class="radio-inline">
+                            <input type="radio" name="optionsRadiosinline" id="optionsRadios3" value="option1" checked>
+                            man
+                        </label>
+                        <label class="radio-inline">
+                            <input type="radio" name="optionsRadiosinline" id="optionsRadios4" value="option2"> female
+                        </label>
+                        <br>
+                        <br>
+                        <div class="mb-3">
+                            <label for="" class="form-label">Email address</label>
+                            <input type="email" class="form-control" name="" id="" aria-describedby="emailHelpId"
+                                placeholder="">
+                            <small id="emailHelpId" class="form-text text-muted">We'll never share your email with
+                                anyone else.</small>
+                        </div>
+
+                        <br>
+                        <div class="form-group">
+                            <label for="address">Address</label>
+                            <input type="text" class="form-control" id="address" placeholder="Please input address:">
+                        </div>
+                        <div class="form-group">
+                            <label for="code">Code</label>
+                            <input type="text" class="form-control" id="code" placeholder="Please input code:">
+                        </div>
+
+                        <br>
+                        <label>Country</label>
+                        <select class="selectpicker countrypicker" data-live-search="true" data-default="Australia"
+                            data-flag="true">nation
+                        </select>                  
+                        <div class="form-group">
+                            <label for="city">City</label>
+                            <input type="text" class="form-control" id="city" placeholder="Please input city:">
+                        </div>
+                        <br>
+                        <div class="form-group">
+                            <label for="suburb">Suburb</label>
+                            <input type="text" class="form-control" id="suburb" placeholder="Please input suburb:">
+                        </div>
+                        <br>
+                        <div>
+                            <button type="submit" class="btn btn-primary">submit</button>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
