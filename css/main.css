@@ -325,6 +325,13 @@ select optgroup {
     padding: 0;
 }
 
+/*Contact us page*/
+.contact-us-img{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
 section h3 {
     font-family: serif;
     font-size : 32pt;

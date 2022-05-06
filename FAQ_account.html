@@ -2,46 +2,49 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>FAQ page</title>
+        <title>FAQ Account page</title>
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        
-        <!--for FAQ types of quesition bar-->
         <style>
-            
-            ul#faq-ul {
-                list-style-type: none;
-                margin: 0;
-                padding: 0;
-                overflow: hidden;
-                background-color: rgb(239, 219, 156);
-                width: 100%;
-                
-            }
-            li#faq-li {
-                float: left;
-                width: 33%;
-                border-right:1px solid #6C645D;
+            p#roundcorner_colour1 {
+                border-radius: 25px;
+                background: rgb(239, 219, 156);
+                color: #6C645D;
+                padding: 25px; 
+                height: 200px;
+                width: 500px;
+
             }
 
-            li#faq-li:last-child {
-                border-right: none;
-            }
-            
-            li#faq-li a {
-                display: block;
-                color: #6C645D;
-                font-size: x-large;
-                text-align: center;
-                padding: 140px 16px;
-                text-decoration: none;
-            }
-            
-            #faq-li a:hover{
+            p#roundcorner_colour2 {
+                border-radius: 25px;
+                background: #6C645D;
                 color: rgb(239, 219, 156);
-                background-color: #6C645D;
+                padding: 25px;
+                height: 250px;
+                width: 500px;
+
             }
+
+            a.word {
+                color: white;
+            }
+
+            a.bot{
+                float:right;
+                background-color: #B6B6B6;
+                color: white;
+                border: 2px solid;
+                text-align: center;
+                text-decoration: none;
+                display: block;
+                width: 152px;
+                height: 45px;
+            }
+
+            
         </style>
+        
     </head>
     <body>
     <div class="header-bottom sticky-bar">
@@ -97,21 +100,66 @@
     </div>
         <header class="header-area">
             <div class="header-top">
-                <h3 style="text-align:center" > FAQ </h3>
+                <h3 style="text-align:center" > FAQ-Account </h3>
                 <h4 style="text-align:center; font-family: serif; color : #6C645D; font-size: 20pt; font-style:italic">
-                    What can we help you?
+                    What can we help you with your account?
                 </h4>
             </div>
         </header>
 
+        <section> 
+            <h3 style="font-family: serif; color : #6C645D; font-size: 20pt">1. How can I register or create a new account ?</h3>
+            <p id="roundcorner_colour1">
+                Step 1. xxxx <br />
+                <br />
+                Step 2. xxxxx <br />
+                <br />
+                Step3. xxx
+            </p>
+            
+        </section>
 
+        <section>
+            <h3 style="font-family: serif; color : #6C645D; font-size: 20pt">2. How can I login to my account ? </h3>
+            <p id="roundcorner_colour2">
+                Step 1. xxxx <br />
+                <br />
+                Step 2. xxxxx <br />
+                <br />
+                Step3. xxx
+            </p>
+            
+        </section>
+
+        <section>
+            <h3 style="font-family: serif; color : #6C645D; font-size: 20pt">3. Can I change my profile ? </h3>
+            <p id="roundcorner_colour1">
+                Step 1. xxxx <br />
+                <br />
+                Step 2. xxxxx <br />
+                <br />
+                Step3. xxx
+            </p>
+            
+        </section>
+
+        <section>
+            <h3 style="font-family: serif; color : #6C645D; font-size: 20pt">4. Is my personal information protected ? </h3>
+            
+            <p id="roundcorner_colour2">
+                    Yes, all your personal information you give us (such as name, address etc.) 
+                    is all well protected. Your personal information is only used for us to provide
+                    service for you, provide you with the access with Barter website and to work 
+                    out what products and services you are more interested in.
+                    <br />
+                    <br />
+                    The more detail about privacy policy will be in the
+                    <a class="word" href="privacy-policy.html" target="_blank">Privacy Policy page</a>
+                    .
+            </p> 
+        </section>
         
-        <ul id="faq-ul">
-            <li id="faq-li"><a href="FAQ_account.html">Account</a></li>
-            <li id="faq-li"><a href="FAQ_order.html">Order</a></li>
-            <li id="faq-li"><a href="FAQ_comment.html">Comments</a></li>
-        </ul>
-
+        <a class="bot" href="FAQ.html">Back to FAQ main page</a>
            
 
     </body>
