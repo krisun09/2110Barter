@@ -386,7 +386,7 @@ div {
 }
 
 .col {
-    flex: 1 0 0%;
+    flex: 1 0 0;
 }
 .list-inline {
     padding-left: 0;
@@ -395,6 +395,13 @@ div {
 
 .list-inline-item {
     display: inline-block;
+    padding: 10px;
+}
+
+.list-inline-item a {
+    color: black !important;
+    padding: 0 !important;
+    text-align: left;
 }
 
 .form-control {

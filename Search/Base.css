@@ -53,6 +53,12 @@ span {
     display: flex;
 }
 
+.row .Row {
+    padding: 20px;
+    height: 330px;
+    display: flex;
+}
+
 section .Row {
     height: 300px;
 }
