@@ -1,12 +1,14 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="css/bootstrap.min.css" rel="stylesheet" >
+    <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
-    <title>applyorder</title>
+    <title>account</title>
 </head>
+
 <body>
 <div class="header-bottom sticky-bar">
     <div class="container-fluid">
@@ -24,7 +26,7 @@
                                 </button>
                                 <div class="dropdown-content">
                                     <a href="upload-item-or-service.html">Upload an item or service</a>
-                                    <a href="Search/Search.html">Find an order</a>
+                                    <a href="find-an-order.html">Find an order</a>
                                 </div>
                             </div>
                         </li>
@@ -59,46 +61,60 @@
         </div>
     </div>
 </div>
-    <div align="center">
-        <div class="header-top">
-            <h1 cent>Barter</h1>
-        </div>
+    <div class="header-area-make-review">
+        <h3>Leave a review</h3>
     </div>
-    <br><br><br>
     <div class="container">
         <div class="row">
-            <div class="col-4" >
-                <div class="card" >
-                    <img src="imgs/pc.jpg" alt="Card image cap" style="width: 20rem;" >
+            <div class="row">
+                <div class="card">
+                    <div class="card-body" align="center">
+                        <h4 class="card-title">Name</h4>
+                        <img src="imgs/admin.png" alt="Card image cap" style="width: 10rem;">
+                    </div>
+
+                    <ul class="list-inline " align="center" style="background-color: white;">
+                        <li class="list-inline-item">gender</li>
+                        <li class="list-inline-item">age</li>
+                        <li class="list-inline-item">location</li>
+                    </ul>
                 </div>
             </div>
-            <div class="col">
-                <div class="mb-3">
-                  <label for="" class="form-label">Name:</label>
-                  <input type="text" name="" id="" class="form-control" placeholder="" aria-describedby="helpId">
-                  <small id="helpId" class="text-muted">please input name</small>
+            <div class="card text-start">              
+              <div class="card-body">               
+                <p class="card-text">Type to leave review</p>
+                <textarea class="form-control" aria-label="With textarea" rows="5"></textarea>
+                <br>
+                <div align="right">
+                    <button type="submit" class="btn btn-secondary">submit</button>
                 </div>
-                <div class="mb-3">
-                    <label for="" class="form-label">Location:</label>
-                    <input type="text" name="" id="" class="form-control" placeholder="" aria-describedby="helpId">
-                    <small id="helpId" class="text-muted">please input location</small>
-                  </div>              
-                <div class="mb-3">
-                    <label for="" class="form-label">Detail:</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" aria-describedby="helpId"></textarea>                    
-                    <small id="helpId" class="text-muted">please input detail</small>
-                    
-                  </div>
-                  
-                <div class="d-grid gap-2 d-md-flex justify-content-md-end">                   
-                    <button class="btn btn-primary active" type="button" >Submit</button>
-                </div>
-               
-            
+              </div>
             </div>
+            <div class="row">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">User1</h5>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">User2</h5>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">User3</h5>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
-       
-    
+
+
 </body>
+
 </html>
