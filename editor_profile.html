@@ -3,84 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/bootstrap-select.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <!-- <link rel="stylesheet" href="css/bootstrap-select.min.css"> -->
     <link rel="stylesheet" href="css/main.css">
     <!-- JavaScript -->
-    <script src="js/jquery.min.js"></script>
+    <!-- <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/countrypicker.min.js"></script>
-    <script src="/path/to/bootstrap-select.min.js"></script>
+    <script src="/path/to/bootstrap-select.min.js"></script> -->
 
     <title>edit</title>
 </head>
 
 <body>
-    <div class="header-bottom sticky-bar">
-        <div class="container-fluid">
-            <div class="header-nav">
-                <div class="main-menu">
-                    <nav>
-                        <ul>
-                            <li>
-                                <a href="index.html">Home</a>
-                            </li>
-                            <li>
-                                <div class="dropdown">
-                                    <button class="dropbtn">Orders
-                                        <i class="fa fa-caret-down"></i>
-                                    </button>
-                                    <div class="dropdown-content">
-                                        <a href="upload-item-or-service.html">Upload an item or service</a>
-                                        <a href="Search/Search.html">Find an order</a>
-                                    </div>
+<div class="header-bottom sticky-bar">
+    <div class="container-fluid">
+        <div class="header-nav">
+            <div class="main-menu">
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <div class="dropdown">
+                                <button class="dropbtn">Orders
+                                    <i class="fa fa-caret-down"></i>
+                                </button>
+                                <div class="dropdown-content">
+                                    <a href="upload-item-or-service.html">Upload an item or service</a>
+                                    <a href="find-an-order.html">Find an order</a>
                                 </div>
-                            </li>
-                            <li>
-                                <div class="dropdown">
-                                    <button class="dropbtn">About Us
-                                        <i class="fa fa-caret-down"></i>
-                                    </button>
-                                    <div class="dropdown-content">
-                                        <a href="About_us.html">About Us</a>
-                                        <a href="contactUs.html">Contact Us</a>
-                                        <a href="FAQ.html">FAQ</a>
-                                    </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="dropdown">
+                                <button class="dropbtn">About Us
+                                    <i class="fa fa-caret-down"></i>
+                                </button>
+                                <div class="dropdown-content">
+                                    <a href="About_us.html">About Us</a>
+                                    <a href="contactUs.html">Contact Us</a>
+                                    <a href="FAQ.html">FAQ</a>
                                 </div>
-                            </li>
-                            <li>
-                                <div class="dropdown">
-                                    <button class="dropbtn">Account
-                                        <i class="fa fa-caret-down"></i>
-                                    </button>
-                                    <div class="dropdown-content">
-                                        <a href="account.html">Account</a>
-                                        <a href="login.html">Login</a>
-                                        <a href="register.html">Register</a>
-                                        <a href="review.html">Your account reviews</a>
-                                    </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="dropdown">
+                                <button class="dropbtn">Account
+                                    <i class="fa fa-caret-down"></i>
+                                </button>
+                                <div class="dropdown-content">
+                                    <a href="account.html">Account</a>
+                                    <a href="login.html">Login</a>
+                                    <a href="register.html">Register</a>
+                                    <a href="review.html">Your account reviews</a>
                                 </div>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
             </div>
         </div>
     </div>
+</div>
     <div class="header-area-make-review">
         <h3>Edit Profile</h3>
     </div>
-    <div class="container">
-        <div class="row">
+    <div class="container-fy">
+        <div class="row1">
             <div class="col-2">
                 <div class="card">
                     <ul class="list-group list-group-flush">
                         <a href="editor_profile.html">
                             <li class="list-group-item">Edit Profile</li>
                         </a>
-                        <a href="history.html">
+                        <a href="#">
                             <li class="list-group-item">History</li>
                         </a>
                         <a href="review.html">
@@ -96,8 +94,8 @@
                 </div>
             </div>
             <div class="col">
-                <div class="row">
-                    <form role="form">
+                <div class="row1">
+                    <form class="form-control">
                         <div class="form-group">
                             <label for="name">Name</label>
                             <input type="text" class="form-control" id="name" placeholder="Please input name:">
@@ -133,11 +131,11 @@
                             <input type="text" class="form-control" id="code" placeholder="Please input code:">
                         </div>
 
-                        <br>
-                        <label>Country</label>
-                        <select class="selectpicker countrypicker" data-live-search="true" data-default="Australia"
-                            data-flag="true">nation
-                        </select>
+                        <br>                     
+                        <div class="form-group">
+                            <label for="code">Country</label>
+                            <input type="text" class="form-control" id="code" placeholder="Please input country:">
+                        </div>
                         <br><br>
                         <div class="form-group">
                             <label for="city">City</label>

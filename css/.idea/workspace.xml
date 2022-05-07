@@ -3,9 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="cca379ae-9ee7-4ddf-9ee9-a675f2cd0e7a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/../Search/Base.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Search/Base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Search/Search.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Search/Search.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../account.html" beforeDir="false" afterPath="$PROJECT_DIR$/../account.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap.min.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../editor_profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/../editor_profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../item_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/../item_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../review.html" beforeDir="false" afterPath="$PROJECT_DIR$/../review.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../upload-item-or-service.html" beforeDir="false" afterPath="$PROJECT_DIR$/../upload-item-or-service.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

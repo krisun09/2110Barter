@@ -48,7 +48,9 @@ span {
 }
 
 .Catalogue .Row {
-    height: 300px;
+    padding: 20px;
+    height: 330px;
+    display: flex;
 }
 
 section .Row {
@@ -56,9 +58,9 @@ section .Row {
 }
 
 .header-top {
-    padding: 20px 18px 0 0;
+    padding: 30px 18px 0 0;
     text-align: center !important;
-    margin-bottom: 55px;
+    margin-bottom: 50px;
 }
 
 .paragraph-body {
@@ -87,7 +89,7 @@ section .Row {
     position: relative;
     padding: 45px 45px 75px;
     margin: 15px 24px;
-    height: 100% !important;
+    height: auto;
 }
 
 .Column span u {
