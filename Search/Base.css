@@ -1,0 +1,80 @@
+basefont {
+    font : Georgia;
+    font-size : 12pt;
+    color : #6C645D;
+}
+
+h3 {
+    font-family: serif !important;
+    font-size: 40pt !important;
+    color: #6C645D !important;
+    margin-bottom: 5px !important;
+    font-weight: bold !important;
+    text-align: center
+}
+
+h4 {
+    font-family: serif;
+    font-size : 24pt;
+    color : #534C47;
+    text-align: center
+}
+h5 {
+    font-family: serif;
+    font-size : 20pt;
+    color : #6C645D;
+}
+h6 {
+    font-family: serif;
+    font-size : 16pt;
+    color : #534C47;
+}
+a {
+    text-decoration: none;
+}
+img {
+    vertical-align: top;
+}
+span {
+    font-family: serif;
+    font-size : 16pt;
+    color : #534C47;
+}
+
+.Catalogue .Row {
+    height: 200px;
+}
+
+.header-top {
+    padding: 20px 18px 0 0;
+    text-align: center !important;
+    margin-bottom: 55px;
+}
+
+.paragraph-body {
+    margin: 20px;
+    padding: 0 30px;
+}
+
+.Catalogue .Column {
+    text-align: -webkit-center;
+    float: left;
+    width: 30%;
+    border-radius: 15px;
+    border: 1px solid grey;
+    position: relative;
+    padding: 50px;
+    margin: 18px;
+    height: 100%;
+}
+.Catalogue.Column {
+    height: 100% !important;
+}
+
+.Catalogue.Column span u {
+    font-size: 14pt;
+}
+
+.Catalogue.Column a img {
+    height: 100%;
+}
