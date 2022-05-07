@@ -32,6 +32,12 @@ h6 {
 a {
     text-decoration: none;
 }
+
+h4 a {
+    color: forestgreen;
+    font-weight: 700;
+}
+
 img {
     vertical-align: top;
 }
@@ -42,7 +48,11 @@ span {
 }
 
 .Catalogue .Row {
-    height: 280px;
+    height: 300px;
+}
+
+section .Row {
+    height: 300px;
 }
 
 .header-top {
@@ -56,25 +66,36 @@ span {
     padding: 0 30px;
 }
 
-.Catalogue .Column {
+.Column {
     text-align: -webkit-center;
     float: left;
-    width: 30%;
+    width: 25%;
     border-radius: 15px;
     border: 1px solid grey;
     position: relative;
-    padding: 50px;
+    padding: 50px 25px 20px;
     margin: 18px;
     height: 100%;
 }
-.Catalogue.Column {
+
+.Catalogue .Column {
+    text-align: -webkit-center;
+    float: left;
+    width: 29%;
+    border-radius: 15px;
+    border: 1px solid grey;
+    position: relative;
+    padding: 45px 45px 75px;
+    margin: 15px 24px;
     height: 100% !important;
 }
 
-.Catalogue.Column span u {
+.Column span u {
     font-size: 14pt;
 }
 
-.Catalogue.Column a img {
+.Column a img {
     height: 100%;
+    max-width: 200px;
+    max-height: 200px;
 }
