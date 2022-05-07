@@ -50,6 +50,15 @@ div {
     width: 100%;
     max-width: 100px;
     text-align: center;
+    margin-top: 17px;
+}
+
+.header-icon-action img {
+    height: 35px;
+}
+
+.header-icon-action span {
+    font-size: 14pt;
 }
 
 .paragraph-body {
@@ -166,7 +175,11 @@ li a {
     color: white;
     text-align: center;
     padding: 16px;
-    text-decoration: none;
+    text-decoration: none !important;
+}
+
+ul a {
+    text-decoration: none !important;
 }
 
 li a:hover {
