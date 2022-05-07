@@ -434,8 +434,27 @@ span {
 }
 
 .Column {
-    float : left;
-    width : 31%;
+    text-align: -webkit-center;
+    float: left;
+    width: 25%;
+    border-radius: 15px;
+     border: 1px solid grey;
+    position: relative;
+    padding: 18px;
+    margin: 18px;
+    height: 100%;
+}
+
+.Column a img {
+    size: 82px 83px;
+}
+
+.Column a span {
+    display: flex;
+    justify-content: center;
+    max-width: 11rem;
+    max-height: 8rem;
+    border-radius: 5rem;
 }
 
 .Row::after {
